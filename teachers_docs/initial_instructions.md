@@ -19,13 +19,14 @@ Virtual Crypto Trader is an interactive trading simulation where users can buy a
 - **Market View**: A list of cryptocurrencies in a table shows current prices, changes, and buy options.
 - **Portfolio View**: Users can see their holdings, including purchase price, current value, and profit/loss.
 - **Monitor & Trade**: Users can watch price movements and decide when to buy more or sell for profit.
+- **Needs to work on Mobile**: The application should be responsive and usable on mobile devices.
 
 ## Technical Specifications
 - **Framework**: Next.js (full-stack)
-- **UI Components**: ShadCN UI
 - **State Management**: React Context API
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
+- Do not manually add package.json dependencies. Use `npm install` to add new dependencies.
 
 ## Project Goals
 1. Create an engaging, interactive cryptocurrency trading simulation

@@ -27,6 +27,7 @@ Virtual Crypto Trader is an interactive trading simulation where users can buy a
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - Do not manually add package.json dependencies. Use `npm install` to add new dependencies.
+- Always used latest versions of packages.
 
 ## Project Goals
 1. Create an engaging, interactive cryptocurrency trading simulation

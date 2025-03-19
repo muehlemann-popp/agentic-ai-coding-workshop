@@ -33,12 +33,15 @@ The API Key is already provided in the .env file.
 
 Prepare the Postgres MCP server.
 
+Use the config snippet from https://pwpush.muehlemann-popp.ch/en/p/qsjyukai6v19
+
 ```plaintext
 Implement a real-time account balance reporting system for the virtual-crypto-trader application that connects to a central PostgreSQL database. Your implementation should:
 
 - Use the MCP postgres-cryptotrader server to query the database structure and understand the schema
 - Generate a Prisma schema file in the project that matches the existing database structure
 - Create a database utility module that uses Prisma to connect to the PostgreSQL database
+- The Postgres DSN can be found in the .env file
 - Implement a server-side API route in Next.js that handles database operations (since Prisma can't run in the browser)
 - Modify the trading context to report the user's total account balance (cash + portfolio value) to the database every 10 seconds every time the user makes a trade OR the crypto prices change.
 - Add a username input component to allow users to identify themselves in the database

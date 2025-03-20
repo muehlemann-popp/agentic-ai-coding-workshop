@@ -44,7 +44,7 @@ Implement a real-time account balance reporting system for the virtual-crypto-tr
 - The Postgres DSN can be found in the .env file
 - Implement a server-side API route in Next.js that handles database operations (since Prisma can't run in the browser)
 - Modify the trading context to report the user's total account balance (cash + portfolio value) to the database every 10 seconds every time the user makes a trade OR the crypto prices change.
-- Add a username input component to allow users to identify themselves in the database
+- While writing the code, ask the user for his username and hardcode it in the code. Do not use the username dialog component.
 - Ensure proper error handling and logging for database operations
-- Update the project documentation to reflect these changes
+- DO NOT modify the existing database schema or the existing database data
 ```

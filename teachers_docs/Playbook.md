@@ -1,21 +1,24 @@
 # m+p AI Coding Workshop Playbook
 
+## Teaser
+
+```plaintext
+Create a game of Tic Tac Toe in the browser.
+```
+
+
 ## Prompt for Step 1:
 
 Use the [initial_instructions.md](initial_instructions.md) + the image 
 
 ![image](specs.png)
-
-## Add the memory bank
-
-[Link to the custom instructions](https://github.com/nickbaumann98/cline_docs/blob/main/prompting/custom%20instructions%20library/cline-memory-bank.md)
-
   
 ## Store the portfolio of the user in the localStorage
 
+```plaintext
 Store the portfolio of the user in the localStorage to preserve the state
 across page reloads.
-
+```
 
 ## Use an API to fetch the data 
 Provide the .env file with the content from https://pwpush.muehlemann-popp.ch/en/p/of-ohtel1ck
@@ -48,3 +51,8 @@ Implement a real-time account balance reporting system for the virtual-crypto-tr
 - Ensure proper error handling and logging for database operations
 - DO NOT modify the existing database schema or the existing database data
 ```
+
+## Add the memory bank
+
+[Link to the custom instructions](https://github.com/nickbaumann98/cline_docs/blob/main/prompting/custom%20instructions%20library/cline-memory-bank.md)
+

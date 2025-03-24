@@ -21,7 +21,7 @@ across page reloads.
 ```
 
 ## Use an API to fetch the data 
-Provide the .env file with the content from https://pwpush.muehlemann-popp.ch/en/p/of-ohtel1ck
+Provide the .env file with the content from https://pwpush.muehlemann-popp.ch/en/p/cglifmdb07mvmv-s
 
 
 Prompt:
@@ -36,7 +36,7 @@ The API Key is already provided in the .env file.
 
 Prepare the Postgres MCP server.
 
-Use the config snippet from https://pwpush.muehlemann-popp.ch/en/p/qsjyukai6v19
+Use the config snippet from https://pwpush.muehlemann-popp.ch/en/p/ri8puz_wygorf9suox0
 
 ```plaintext
 Implement a real-time account balance reporting system for the virtual-crypto-trader application that connects to a central PostgreSQL database. Your implementation should:

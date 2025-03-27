@@ -20,7 +20,7 @@ Virtual Crypto Trader is an interactive trading simulation where users can buy a
 - **Portfolio View**: Users can see their holdings, including purchase price, current value, and profit/loss.
 - **Monitor & Trade**: Users can watch price movements and decide when to buy more or sell for profit.
 - **Needs to work on Small Screens**: It should be no more than 900px wide.
-- **Modern Design**: Implement a fancy dark mode design. The attached sketch is just a suggestion.
+- **Modern Design**: Implement a fancy dark mode design. The attached sketch is just a hand scribble. Use your own color scheme and fonts.
 
 ## Technical Specifications
 - **Framework**: Next.js (full-stack)
@@ -28,7 +28,6 @@ Virtual Crypto Trader is an interactive trading simulation where users can buy a
 - **Styling**: Tailwind CSS
 - **Language**: TypeScript
 - Do not manually add package.json dependencies. Use `npm install` to add new dependencies.
-- Always used latest versions of packages.
 
 ## Development tips
 - When testing in the browser, be aware that you might not see the whole screen. If you assume that not all the screen is shown,

@@ -6,12 +6,23 @@
 Create a game of Tic Tac Toe in the browser.
 ```
 
+```plaintext
+Make it beautiful
+```
+
 
 ## Prompt for Step 1:
 
+The Step 1 should be done in two steps: Create the app, then add the specific knowledge.
+
+### Step 1
+```plaintext
+Create a boilerplate Next.js app with TypeScript and Tailwind CSS. 
+```
+
+### Step 2
 Use the [initial_instructions.md](initial_instructions.md) + the image 
 
-![image](specs.png)
   
 ## Store the portfolio of the user in the localStorage
 
